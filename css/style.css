@@ -1,0 +1,104 @@
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+     font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.page{
+    background: linear-gradient(90deg, #09090a 0%, #181719 37.5%, #36343b 100%, #39363d 100%);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-item{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 164px;
+}
+
+.container-item-box{
+    margin-bottom: 50px;;
+}
+
+
+.container-item-title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-weight: 500;
+font-size: 50px;
+height: 90px;
+
+line-height: 116px;
+color: #fff;
+margin-bottom: 0;
+}
+
+.container-item-subtitle{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-weight: 400;
+font-size: 25px;
+margin-top: 0;
+line-height: 67px;
+height: 50px;
+color: #8d8d99;
+}
+
+.btn{
+    border-radius: 999px;
+padding: 20px 48px;
+width: 365px;
+height: 112px;
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15), 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 14px 14px 0 rgba(0, 0, 0, 0.13), 0 32px 19px 0 rgba(0, 0, 0, 0.08), 0 57px 23px 0 rgba(0, 0, 0, 0.02), 0 89px 25px 0 rgba(0, 0, 0, 0);
+background: #202024;
+}
+
+.container-item1{
+    position: relative;
+    
+}
+
+.container-item1-img1{
+   position: absolute;
+   top: 10%;
+   right: 0;
+
+width: 774px;
+height: 900px;
+}
+
+
+.container-item1-img{
+width: 774px;
+height: 800px;
+backdrop-filter: blur(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
