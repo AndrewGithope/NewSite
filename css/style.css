@@ -63,11 +63,50 @@ color: #8d8d99;
 .btn{
     border-radius: 999px;
 padding: 20px 48px;
-width: 365px;
-height: 112px;
+width: 305px;
+height: 82px;
 box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15), 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 14px 14px 0 rgba(0, 0, 0, 0.13), 0 32px 19px 0 rgba(0, 0, 0, 0.08), 0 57px 23px 0 rgba(0, 0, 0, 0.02), 0 89px 25px 0 rgba(0, 0, 0, 0);
 background: #202024;
+position: relative;
+margin-top: 100px;
+
+
 }
+
+.svg-img{
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+}
+
+.img-for-svg{
+    position: absolute;
+    top: 12%;
+    left: 7%;
+}
+
+.svg-img-item1{
+    position: absolute;
+    top: 22%;
+    left: 13%;
+    z-index: 3;
+}
+
+.svg-img-item2{
+   position: absolute;
+   top: 38%;
+   left: 10%;;
+   z-index: 1;
+}
+
+.svg-img-item3{
+   position: absolute;
+   top: 38%;
+   left: 16%;
+   z-index: 1;
+}
+
 
 .container-item1{
     position: relative;
