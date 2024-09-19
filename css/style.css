@@ -78,6 +78,10 @@ transition: transform ease 0.5s;
     transform: translateY(-10px);
 }
 
+.btn-link{
+    text-decoration: none;
+}
+
 .button-title{
     font-family: "Plus Jakarta Sans", sans-serif;
 font-weight: 600;
@@ -351,10 +355,117 @@ color: #fff;
 }
 
 
+/*Information*/
+
+.body-information{
+background-color: #29292E;
+    padding: 80px 80px 75px 80px;
+}
+
+.page-information{
+    margin: auto;
+    padding: 0;
+}
+
+
+.header-information{
+    margin: auto;
+    background: url(../img/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    padding: 50px;
+
+}
+
+.user-image{
+    background: url(../img/WIN_20240919_20_34_31_Pro.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    border-radius: 500px;
+    outline: 2px solid #e3646e;
+    outline-offset: 8px;
+    margin: auto;
+    position: relative;
 
 
 
+}
 
+.svg-for-image{
+    position: absolute;
+    top: 82%;
+    right: 0;
+
+}
+
+.subtitle-image{
+font-family: "Inconsolata", sans-serif;
+font-weight: 400;
+font-size: 20px;
+
+/* line-height: 24px; */
+line-height: 1.2;
+text-align: center;
+color: #c0c4ce;
+}
+
+.header-title-information{
+    font-family: "Asap", sans-serif;
+font-weight: 700;
+font-size: 56px;
+
+/* line-height: 67px; */
+line-height: 1.2;
+text-align: center;
+color: #e2e4e9;
+}
+
+.header-text-information{
+    max-width: 690px;
+    margin: auto;
+    font-family: "Maven Pro", sans-serif;
+font-weight: 400;
+font-size: 14px;
+
+/* line-height: 20px; */
+line-height: 1.4;
+text-align: center;
+color: #878ea1;
+}
+
+.header-container-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.container-element{
+    color: #fff;
+    background: #292c34;
+    border-radius: 999px;
+    width: 114px;
+    height: 40px;
+    padding: 0;
+ }
+
+.svg-container-image{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.word-container-image{
+   display: inline-block;
+}
+
+.header-svg-pointer{
+    display: block;
+    margin: auto;
+    margin-top: 94px;
+}
 
 
 
