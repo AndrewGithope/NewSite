@@ -376,6 +376,7 @@ background-color: #29292E;
     height: 750px;
     padding: 50px;
 
+
 }
 
 .user-image{
@@ -465,7 +466,77 @@ color: #878ea1;
     display: block;
     margin: auto;
     margin-top: 94px;
+    margin-bottom: 0;
 }
+
+.main-information{
+    background-color: #121212;
+    margin-top: 0;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 72px 120px 144px 120px;
+    height: 917px;
+}
+
+.main-header-information{
+    margin-bottom: 55px;
+}
+
+.main-header-title{
+    font-family: "Inconsolata", sans-serif;
+font-weight: 400;
+font-size: 20px;
+
+/* line-height: 24px; */
+line-height: 1.2;
+text-align: center;
+color: #e3646e;
+}
+
+.main-header-subtitle{
+    font-family: "Asap", sans-serif;
+font-weight: 700;
+font-size: 24px;
+
+/* line-height: 29px; */
+line-height: 1.2;
+text-align: center;
+color: #e2e4e9;
+}
+
+
+.main-container-information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.figure-element{
+
+}
+
+.img-figure{
+    width: 500px;
+    height: 280px;
+}
+
+.figcaption-text{
+    color: #fff;
+    max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
