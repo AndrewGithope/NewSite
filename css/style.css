@@ -149,7 +149,7 @@ height: 900px;
 .container-item1-img{
 width: 774px;
 height: 800px;
-backdrop-filter: blur(20px);
+
 }
 
 /*About Me*/
@@ -360,9 +360,13 @@ color: #fff;
 .body-information{
 background-color: #29292E;
     padding: 80px 80px 75px 80px;
+    height: 100vh;
+    overflow: scroll;
 }
 
 .page-information{
+    width: 100%;
+    height: 100vh;
     margin: auto;
     padding: 0;
 }
@@ -476,7 +480,7 @@ color: #878ea1;
     margin-bottom: 50px;
     text-align: center;
     padding: 72px 120px 144px 120px;
-    height: 917px;
+    height: auto;
 }
 
 .main-header-information{
@@ -509,7 +513,9 @@ color: #e2e4e9;
 .main-container-information{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
+    height: auto;
 
 }
 
@@ -520,11 +526,24 @@ color: #e2e4e9;
 .img-figure{
     width: 500px;
     height: 280px;
+    border-radius: 8px;
+    background-color: #878ea1;
+    transition: transform linear 0.5s;
+}
+
+.img-figure:active{
+    transform: translateY(-10px);
 }
 
 .figcaption-text{
-    color: #fff;
     max-width: 400px;
+    font-family: "Maven Pro", sans-serif;
+font-weight: 400;
+font-size: 14px;
+
+/* line-height: 20px; */
+line-height: 1.4;
+color: #c0c4ce;
 }
 
 
